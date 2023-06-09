@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import type { Cell, TableState } from "@/utils/types";
-import { AppContext } from "@/components/AppContext";
+import { AppContext } from "@/utils/AppContext";
 import { checkWin } from "@/utils/checkWin";
 import { nextPlayer } from "@/utils/player";
 import { toast } from "react-hot-toast";

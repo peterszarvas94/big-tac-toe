@@ -24,7 +24,7 @@ export default function AppContextProvider({ children }: { children: React.React
   const initialTableState = generateEmptyState(10, 10);
 
   const [tableState, setTableState] = useState<TableState>(initialTableState);
-  const [game, setGame] = useState<GameStatus>({ status: 'logged-out' });
+  const [game, setGame] = useState<GameStatus>({ status: 'options' });
   const [size, setSize] = useState<TableSize>(10);
   const [piecesToWin, setPiecesToWin] = useState<PieceSize>(5);
   const [players, setPlayers] = useState<Player[]>([{

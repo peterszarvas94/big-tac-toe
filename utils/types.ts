@@ -16,9 +16,7 @@ export type TableState = {
 }
 
 export type GameStatus = {
-  status: 'logged-out';
-} | {
-  status: 'logged-in';
+  status: 'options';
 } | {
   status: 'playing';
 } | {

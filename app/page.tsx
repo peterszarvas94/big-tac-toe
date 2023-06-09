@@ -1,6 +1,6 @@
 "use client";
 
-import AppContextProvider from "@/components/AppContext";
+import AppContextProvider from "@/utils/AppContext";
 import App from "@/components/App";
 import { Toaster } from "react-hot-toast";
 

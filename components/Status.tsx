@@ -1,5 +1,5 @@
 import { ReactNode, useContext } from "react";
-import { AppContext } from "@/components/AppContext";
+import { AppContext } from "@/utils/AppContext";
 
 export default function Staus() {
 

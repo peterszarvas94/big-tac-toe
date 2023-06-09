@@ -17,7 +17,6 @@ Go to `localhost:3000` or any other address the terminal shows
 
 ## How to play
 
-- Log in, the username and password are both `admin`
 - Select table size (default is 10x10)
 - Select how many pieces you need to win (default is 5)
 - Select how many players will play with the `+` and `-` buttons

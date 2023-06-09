@@ -1,5 +1,5 @@
 import { ReactElement, useContext } from "react";
-import { AppContext } from "@/components/AppContext";
+import { AppContext } from "@/utils/AppContext";
 import TableRow from "@/components/TableRow";
 
 export default function Table() {

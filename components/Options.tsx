@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, ReactNode, useContext, useState } from "react";
 import { PieceSize, Player, Symbol, TableSize, UserList } from "@/utils/types";
-import { AppContext } from "@/components/AppContext";
+import { AppContext } from "@/utils/AppContext";
 import { generateEmptyState } from "@/utils/state";
 import { nextSymbol } from "@/utils/player";
 import { toast } from "react-hot-toast";

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "@/components/AppContext";
+import { AppContext } from "@/utils/AppContext";
 import Table from "@/components/Table";
 import Status from "@/components/Status";
 
@@ -16,7 +16,7 @@ export default function Game() {
             border border-primary py-2 px-4 rounded-xl flex items-center bg-secondary w-fit text-xl
           "
         onClick={() => {
-          setGame({ status: "logged-in" });
+          setGame({ status: "options" });
         }}
       >
         new game

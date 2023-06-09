@@ -1,5 +1,5 @@
 import { FormEvent, useContext, useState } from "react";
-import { AppContext } from "@/components/AppContext";
+import { AppContext } from "@/utils/AppContext";
 import { toast } from "react-hot-toast";
 
 export default function Login() {
@@ -21,7 +21,7 @@ export default function Login() {
       return;
     }
 
-    setGame({ status: "logged-in" });
+    setGame({ status: "options" });
   }
 
   return (
