@@ -31,4 +31,4 @@ Go to `localhost:3000` or any other address the terminal shows
 
 ## Live version
 
-This project is currently hosted on [https://tic-tac-toe-blue-zeta-33.vercel.app/](https://tic-tac-toe-blue-zeta-33.vercel.app/)
+This project is currently hosted on [https://big-tac-toe.vercel.app/](https://big-tac-toe.vercel.app/)
